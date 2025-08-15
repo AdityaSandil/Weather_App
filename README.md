@@ -1,12 +1,30 @@
-# React + Vite
+A full-stack Weather Application built using **Vite React** for the frontend and **MERN stack** (MongoDB, Express, React, Node.js) for backend services.  
+This app fetches real-time weather data from a public API and displays it in a user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📌 Features
+- 🌍 **Search by City** – Get current weather for any location worldwide.
+- 🌡 **Real-Time Data** – Displays temperature, humidity, wind speed, and weather conditions.
+- 🎨 **Responsive UI** – Works seamlessly on mobile, tablet, and desktop.
+- ⚡ **Fast Performance** – Built with Vite for instant reloads and optimized builds.
+- 📜 **History Tracking** – Stores recent searches using MongoDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Frontend**
+- [React](https://react.dev/) (Vite build tool)
+- [Axios](https://axios-http.com/) for API requests
+- CSS / TailwindCSS for styling
+
+### **Backend**
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/) (via Mongoose)
+
+### **API**
+- [OpenWeather API](https://openweathermap.org/) *(or any weather API you used)*
+
+---
